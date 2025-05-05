@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #7BA287;
+    color: #ffffff;
+    padding:  10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-button {
+    background: #2F4B26;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100px;
+    display: inline-block;
+}
+
+.nav-button:hover {
+    background: #4B7F4B;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    text-align:  center;
+}
+
+section.hero {
+    background-image: url('/media/hero_image.jpg');
+    color:#f4f4f4;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    align-items: center;
+    font-size: 24px;
+}
+
+section.hero p {
+    font-size: 20px;
+    margin: 10px 5px;
+}
+
+a.cta-button {
+    background: #2F4B26;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+section.paragraph {
+    margin: 20px 5px;
+    font-size: 18px;
+}
+
+section.cta-trap {
+    background: #7BA287;
+    color: #ffffff;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background: #2F4B26;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footlink {
+    color: #ffffff;
+    padding: 10px 0;
+}
