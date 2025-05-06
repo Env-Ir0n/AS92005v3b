@@ -68,6 +68,18 @@ a.cta-button {
 section.paragraph {
     margin: 20px 5px;
     font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    background: #ffffff;
+    padding: 20px;
+}
+
+p.imperitive {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2F4B26;
+    text-align: center;
+    text-decoration: underline;
 }
 
 section.cta-trap {
@@ -77,14 +89,46 @@ section.cta-trap {
     text-align: center;
     margin: 20px 0;
 }
+section.showcase {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    background-color: #7BA287;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
-footer {
+section.contact {
+    background: #82b390;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#tel-link {
+    color: #eee9e9;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+div.showcase-item {
+    background: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 20px;
+}
+
+div.showcase-item img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.footerbar {
     background: #2F4B26;
     color: #ffffff;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-    bottom: 0;
-    width: 100%;
 }
 
 .footlink {
