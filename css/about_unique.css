@@ -1,0 +1,35 @@
+/* This file serves unique styles for elements on the about page,
+   ensuring a consistent and visually appealing layout 
+   without cluttering the style.css global stylesheet */
+
+   /* Showcase section */
+section.showcase {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    background-color: #7BA287;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Showcase items and section */
+div.showcase-item {
+    background: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 20px;
+}
+
+div.showcase-item img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Contact section */
+section.contact {
+    background: #82b390;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}

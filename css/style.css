@@ -80,7 +80,7 @@ section.paragraph {
     padding: 20px;
 }
 
-p.imperitive {
+p.imperative {
     font-size: 20px;
     font-weight: bold;
     color: #2F4B26;
@@ -97,23 +97,9 @@ section.cta-trap {
     margin: 20px 0;
 }
 
-/* Showcase section */
-section.showcase {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    background-color: #7BA287;
-    margin-top: 20px;
-    border-radius: 10px;
-}
 
-/* Contact section */
-section.contact {
-    background: #82b390;
-    padding: 20px;
-    text-align: center;
-    margin: 20px 0;
-}
+
+
 
 #tel-link {
     color: #eee9e9;
@@ -121,19 +107,6 @@ section.contact {
     font-size: 18px;
 }
 
-/* Showcase items and section */
-div.showcase-item {
-    background: #ffffff;
-    border-radius: 5px;
-    text-align: center;
-    margin: 5px 20px;
-}
-
-div.showcase-item img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 5px;
-}
 
 /* Footer section */
 .footerbar {
