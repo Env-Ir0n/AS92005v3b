@@ -5,6 +5,7 @@ body {
     padding: 0;
 }
 
+/* Style for the header */
 header {
     background: #7BA287;
     color: #ffffff;
@@ -13,6 +14,7 @@ header {
     justify-content: center;
 }
 
+/* Fancy buttons */
 .nav-button {
     background: #2F4B26;
     color: #ffffff;
@@ -31,6 +33,7 @@ header {
     background: #4B7F4B;
 }
 
+/* Main content section */
 main {
     width: 80%;
     margin: auto;
@@ -39,6 +42,7 @@ main {
     text-align:  center;
 }
 
+/* Hero section */
 section.hero {
     background-image: url('/media/hero_image.jpg');
     color:#f4f4f4;
@@ -56,6 +60,7 @@ section.hero p {
     margin: 10px 5px;
 }
 
+/* Call to Action button */
 a.cta-button {
     background: #2F4B26;
     color: #ffffff;
@@ -65,6 +70,7 @@ a.cta-button {
     font-size: 18px;
 }
 
+/* Paragraph section */
 section.paragraph {
     margin: 20px 5px;
     font-size: 18px;
@@ -82,6 +88,7 @@ p.imperitive {
     text-decoration: underline;
 }
 
+/* Call to Action section */
 section.cta-trap {
     background: #7BA287;
     color: #ffffff;
@@ -89,6 +96,8 @@ section.cta-trap {
     text-align: center;
     margin: 20px 0;
 }
+
+/* Showcase section */
 section.showcase {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -98,6 +107,7 @@ section.showcase {
     border-radius: 10px;
 }
 
+/* Contact section */
 section.contact {
     background: #82b390;
     padding: 20px;
@@ -111,6 +121,7 @@ section.contact {
     font-size: 18px;
 }
 
+/* Showcase items and section */
 div.showcase-item {
     background: #ffffff;
     border-radius: 5px;
@@ -124,6 +135,7 @@ div.showcase-item img {
     border-radius: 5px;
 }
 
+/* Footer section */
 .footerbar {
     background: #2F4B26;
     color: #ffffff;
