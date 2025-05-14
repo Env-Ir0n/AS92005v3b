@@ -17,13 +17,14 @@ div.showcase-item {
     background: #ffffff;
     border-radius: 5px;
     text-align: center;
-    margin: 5px 20px;
+    margin: 10px;
 }
 
 div.showcase-item img {
     max-width: 80%;
     height: auto;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 /* Contact section */

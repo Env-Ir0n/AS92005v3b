@@ -1,0 +1,10 @@
+{
+  "htmldropdown": {
+    "scope": "html",
+    "prefix": "drop",
+    "body": [
+      "<div class=\"dropdown\">\r\n                    <button class=\"dropbutton\">More Info</button>\r\n                    <div class=\"drop-content\">\r\n                        <ul>\r\n                            <li>Made from weather-proof materials</li>\r\n                            <li>Can include glazing and lockable doors</li>\r\n                            <li>Usually bigger than 10m<sup>2</sup> (consent needed)</li>\r\n                            <li>Built in a large, sturdy tree.</li>\r\n                            <li>Ideal for a large, wooded area.</li>\r\n                        </ul>\r\n                    </div>\r\n                </div>\r\n            </div>"
+    ],
+    "description": "An html dropdown menu example"
+  }
+}
